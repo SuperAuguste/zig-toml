@@ -40,3 +40,8 @@ A great way to get started with `zig-toml` is to look at [the tests](https://git
 
 In essence, `zig-toml` is like `std.json` in the sense that you can use `x.?.String` or `x.?.Array` to query for values. The only main differences are that `x.?.Object`
 becomes `x.?.SubTable`, and opening a TOML file is done using `try toml.Table.fromString(allocator, toml_data)`.
+
+<!-- omit in toc -->
+## Have Fun!
+
+![bad kpop meme](https://github.com/SuperAuguste/zig-toml/blob/master/kpop_readme.jpg?raw=true)

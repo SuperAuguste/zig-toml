@@ -42,6 +42,6 @@ In essence, `zig-toml` is like `std.json` in the sense that you can use `x.?.Str
 becomes `x.?.SubTable`, and opening a TOML file is done using `try toml.Table.fromString(allocator, toml_data)`.
 
 <!-- omit in toc -->
-## Have Fun!
+## Enjoy!
 
 ![bad kpop meme](https://github.com/SuperAuguste/zig-toml/blob/master/kpop_readme.jpg?raw=true)
